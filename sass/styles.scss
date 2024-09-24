@@ -1,5 +1,5 @@
 @use "variables" as v;
-
+@use "mixins" as m;
 * {
         margin: 0;
         padding: 0;
@@ -65,7 +65,7 @@
     color: v.$white;
     display: flex;
     flex-direction: column;
-    text-align: center;
+       text-align: center;
 }
 
 
@@ -97,11 +97,11 @@ color: v.$white;
     background-color: v.$black;
     color: v.$white;
     &__flex{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-between;
+        // align-items: center;
+        @include m.flex();
     }
     &__id{
         color: v.$id;
@@ -118,18 +118,10 @@ color: v.$white;
 
    }
     &__div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        @include m.div();
     }
     &__div-reverse{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        @include m.div();
     }
 }
 
