@@ -1,0 +1,210 @@
+@use "variables" as v;
+
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+.wallpapers{
+    background-color: v.$black;
+    color: v.$white;
+    &__img{
+        width: 100vw;
+
+    }
+}
+@media (min-width:600px){
+    .wallpapers{
+       
+        display: grid;
+      
+        grid-template-columns:1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr  ;
+        grid-template-areas: "tres dos"
+                             "cinco cuatro"
+                             "cinco uno"
+                             "cinco uno";
+    
+        
+        
+       
+        &__img1{
+            grid-area: uno;
+            width: 400px;        
+        }
+        &__img2{
+            grid-area: dos;
+            width: 400px;
+
+        }
+        &__img3{
+            grid-area: tres;
+         width: 400px;
+
+        } 
+        &__img4{
+            grid-area: cuatro;
+         width: 400px;
+
+        }
+        &__img5{
+            grid-area: cinco;
+         width: 400px;
+
+        }
+    }
+}
+
+
+
+.enemies{
+    background-color: v.$black;
+    color: v.$white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+@media (min-width:600px){
+    .enemies{
+        &__center{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+
+
+
+.mystery{
+background-color: v.$black;
+color: v.$white;
+    &__img{
+        width: 100%;
+    }
+}
+
+
+
+
+.characters{
+    background-color: v.$black;
+    color: v.$white;
+    &__flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    &__id{
+        color: v.$id;
+        text-decoration: none;
+      
+        &:hover{
+            color: v.$link;
+        }
+    }
+   &__h2{
+    text-align: center;
+    height: 50px;
+    animation: color 1000ms infinite alternate;
+
+   }
+    &__div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    &__div-reverse{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@keyframes color {
+    0%{color: red;
+    font-size: 20px;
+}
+
+    100%{color:pink;
+        font-size: 40px;
+    }
+  
+    }
+
+
+@media (min-width:600px){
+    .characters{
+       
+    
+    
+        &__div{
+            display: flex;
+            flex-direction: row;
+        }
+        &__div-reverse{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        &__img{
+           object-fit: cover;
+        }
+    }
+
+}
+
+
+
+.home{
+    background-color: v.$black;
+    &__img{
+        width: 100%;
+    }
+    &__paragraph{
+        color: v.$white;
+    }
+}
+
+
+
+.navbar{ 
+    &__img{
+        width: 100px;
+        height: 100px;
+    }
+
+}
+
+.container-fluid{
+    background-color: v.$container-fluid;
+    font-weight: 700;
+ 
+}
+.footer{
+    
+    background-color: v.$black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   &__a{
+    
+    color: v.$white;
+    margin: 0 20px 0;
+    &:hover{
+        color: v.$footer;
+    }
+   }
+}

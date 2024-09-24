@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wallpapers {
+  background-color: #000;
+  color: #f0f8ff;
+}
+.wallpapers__img {
+  width: 100vw;
+}
+
+@media (min-width: 600px) {
+  .wallpapers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "tres dos" "cinco cuatro" "cinco uno" "cinco uno";
+  }
+  .wallpapers__img1 {
+    grid-area: uno;
+    width: 400px;
+  }
+  .wallpapers__img2 {
+    grid-area: dos;
+    width: 400px;
+  }
+  .wallpapers__img3 {
+    grid-area: tres;
+    width: 400px;
+  }
+  .wallpapers__img4 {
+    grid-area: cuatro;
+    width: 400px;
+  }
+  .wallpapers__img5 {
+    grid-area: cinco;
+    width: 400px;
+  }
+}
+.enemies {
+  background-color: #000;
+  color: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  .enemies__center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.mystery {
+  background-color: #000;
+  color: #f0f8ff;
+}
+.mystery__img {
+  width: 100%;
+}
+
+.characters {
+  background-color: #000;
+  color: #f0f8ff;
+}
+.characters__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.characters__id {
+  color: rgb(250, 182, 56);
+  text-decoration: none;
+}
+.characters__id:hover {
+  color: rgb(238, 157, 170);
+}
+.characters__h2 {
+  text-align: center;
+  height: 50px;
+  animation: color 1000ms infinite alternate;
+}
+.characters__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.characters__div-reverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@keyframes color {
+  0% {
+    color: red;
+    font-size: 20px;
+  }
+  100% {
+    color: pink;
+    font-size: 40px;
+  }
+}
+@media (min-width: 600px) {
+  .characters__div {
+    display: flex;
+    flex-direction: row;
+  }
+  .characters__div-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .characters__img {
+    object-fit: cover;
+  }
+}
+.home {
+  background-color: #000;
+}
+.home__img {
+  width: 100%;
+}
+.home__paragraph {
+  color: #f0f8ff;
+}
+
+.navbar__img {
+  width: 100px;
+  height: 100px;
+}
+
+.container-fluid {
+  background-color: rgb(209, 209, 165);
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__a {
+  color: #f0f8ff;
+  margin: 0 20px 0;
+}
+.footer__a:hover {
+  color: rgb(255, 255, 0);
+}
+
+/*# sourceMappingURL=styles.css.map */
