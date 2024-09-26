@@ -53,6 +53,7 @@ background-color: v.$black;
 color: v.$white;
     &__img{
         width: 100%;
+   
     }
 }
 
@@ -130,6 +131,7 @@ color: v.$white;
     background-color: v.$black;
     &__img{
         width: 100%;
+      
     }
     &__paragraph{
         color: v.$white;
@@ -148,11 +150,12 @@ color: v.$white;
 
 .container-fluid{
     background-color: v.$container-fluid;
-    font-weight: 700;
+    font-weight: 700; 
  
 }
 .footer{
     background-color: v.$black;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
