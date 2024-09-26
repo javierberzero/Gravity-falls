@@ -10,51 +10,17 @@
 
 .wallpapers{
     background-color: v.$black;
-    color: v.$white;
-    &__img{
-        width: 100vw;
+       color: v.$white;
+     
+       width: 100%;
+       max-width: 1100px;
+           display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+           gap: 20px;
 
-    }
-}
-@media (min-width:600px){
-    .wallpapers{
-       
-        display: grid;
-      
-        grid-template-columns:1fr 1fr 1fr 1fr; 
-        grid-template-rows: 1fr 1fr  ;
-        grid-template-areas: "tres dos"
-                             "cinco cuatro"
-                             "cinco uno"
-                             "cinco uno";
-    
-        
-        
-       
-        &__img1{
-            grid-area: uno;
-            width: 400px;        
-        }
-        &__img2{
-            grid-area: dos;
-            width: 400px;
-
-        }
-        &__img3{
-            grid-area: tres;
-         width: 400px;
-
-        } 
-        &__img4{
-            grid-area: cuatro;
-         width: 400px;
-
-        }
-        &__img5{
-            grid-area: cinco;
-         width: 400px;
-
-        }
+    &__imgc{
+        width: 100%;
+        object-fit: cover;
     }
 }
 
@@ -186,11 +152,11 @@ color: v.$white;
  
 }
 .footer{
-    
     background-color: v.$black;
     display: flex;
     justify-content: center;
     align-items: center;
+   
    &__a{
     
     color: v.$white;
