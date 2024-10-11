@@ -1,148 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7bffae77f8.js" crossorigin="anonymous"></script>
-    <title>Characters</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lista con personajes de Gavity Falls">
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/7bffae77f8.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Gavity Falls Personajes</title>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary m-0 p-0">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img class="navbar__img" src="../img/bill.png" alt="Bill Cypher"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/characters.html">Characters</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/mysteryshack.html">Mystery Shack</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/enemies.html">Enemies</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pages/wallpapers.html">Wallpapers</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-danger" type="submit">Search</button>
-            </form>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"
+          ><img class="navbar__img" src="../img/bill.png" alt="Bill Cypher"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/characters.html">Personajes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/mysteryshack.html"
+                >Mystery Shack</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/enemies.html">Antagonistas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/wallpapers.html">Wallpapers</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Gravity falls"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">Buscar</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
 
+    <main class="characters" id="top">
+      <div class="characters__flex">
+        <a class="characters__id" href="#dipper"
+          ><img
+            src="../img/personajes/Minuatura/Dipper-GravityFalls.webp"
+            alt="Dipper"
+          />Mason "Dipper" Pines</a
+        >
+        <a class="characters__id" href="#mabel"
+          >Mabel Pines
+          <img src="../img/personajes/Minuatura/mabel.jfif" alt="Mabel"
+        /></a>
+        <a class="characters__id" href="#stanley"
+          ><img src="../img/personajes/Minuatura/stanley.jfif" alt="Stan" />
+          Stanley "Stan" Pines</a
+        >
+        <a class="characters__id" href="#wendy">
+          Wendy Blerble Corduroy
+          <img src="../img/personajes/Minuatura/wendy.jfif" alt="Wendy"
+        /></a>
+        <a class="characters__id" href="#jesus"
+          ><img src="../img/personajes/Minuatura/soos.jfif" alt="Soos" /> Jesús
+          "Soos" Alzamirano Ramírez
+        </a>
+        <a class="characters__id" href="#mcgucket"
+          >Fiddleford McGucket
+          <img src="../img/personajes/Minuatura/mcGucket.jfif" alt="McGucket"
+        /></a>
+        <a class="characters__id" href="#stanford"
+          ><img
+            src="../img/personajes/Minuatura/stanford.jfif"
+            alt="Stanford"
+          />Stanford Pines</a
+        >
+        <a class="characters__id" href="#abuelita"
+          >Abuelita
+          <img src="../img/personajes/Minuatura/abuelita.png" alt="Abuelita"
+        /></a>
+      </div>
 
-<main class="characters" id="top">
-<div class="characters__flex">
-<a class="characters__id" href="#dipper"><img  src="../img/personajes/Minuatura/Dipper-GravityFalls.webp" alt="Dipper">Mason "Dipper" Pines</a>
-<a class="characters__id" href="#mabel">Mabel Pines <img src="../img/personajes/Minuatura/mabel.jfif" alt="Mabel"></a>
-<a class="characters__id" href="#stanley"><img src="../img/personajes/Minuatura/stanley.jfif" alt="Stan"> Stanley "Stan" Pines</a>
-<a class="characters__id" href="#wendy"> Wendy Blerble Corduroy <img src="../img/personajes/Minuatura/wendy.jfif" alt="Wendy"></a>
-<a class="characters__id" href="#jesus"><img src="../img/personajes/Minuatura/soos.jfif" alt="Soos"> Jesús "Soos" Alzamirano Ramírez </a>
-<a class="characters__id" href="#mcgucket">Fiddleford McGucket <img src="../img/personajes/Minuatura/mcGucket.jfif" alt="McGucket"></a>
-<a class="characters__id" href="#stanford"><img src="../img/personajes/Minuatura/stanford.jfif" alt="Stanford">Stanford Pines</a>
-<a class="characters__id" href="#abuelita">Abuelita <img src="../img/personajes/Minuatura/abuelita.png" alt="Abuelita"></a>
+      <h2 id="dipper" class="characters__h2">Mason "Dipper" Pines</h2>
+      <div class="characters__div">
+        <img
+          class="characters__img"
+          src="../img/personajes/dipper.jfif"
+          alt="Dipper"
+        />
+        <p>
+          (Voz por Jason Ritter): Dipper es un niño inteligente de 12-13 años1​
+          (hasta Raromagedón Parte 3: Recuperando Gravity Falls), mellizo de
+          Mabel, 5 minutos menor que ella y el protagonista principal de la
+          serie. Es organizado y curioso, pero no es muy fuerte en el sentido
+          físico: por lo general, se lo muestra como un debilucho (lo que causa
+          las burlas de Mabel y su tío Stan). Durante las vacaciones, trabajaba
+          en la Cabaña del Misterio junto a su hermana Mabel, Soos, Stan y
+          Wendy. Un día, descubre accidentalmente un libro en el que aparecen
+          advertencias e información sobre los sucesos del pueblo (el Diario
+          Número "3"). Es atento e inteligente, y para no fallar, organiza
+          listas a menudo, con la intención de que todo salga perfecto. Dipper
+          está enamorado de Wendy y, en más de una ocasión, ha intentando
+          confesarle su amor. Sin embargo, ella amablemente le rechazó.
+          Consiguió su apodo debido a que tiene una marca de nacimiento, la Osa
+          Mayor (traducido como The Big Dipper), y le gusta el nombre Tyrone.
+          Lleva una gorra con un signo de árbol de pino, un chaleco azul, camisa
+          roja, pantalones cortos y zapatillas. Es ambidiestro, pero suele usar
+          más la mano derecha. Su cumpleaños es el 31 de agosto, al igual que
+          Mabel. Se puede apreciar que la mayoría del tiempo intenta anteponer
+          la felicidad de su hermana antes que la suya. En el capítulo Una
+          historia de dos Stans, se revela que él y su hermana son nietos de
+          Shermy Pines, el hermano menor de Stan y Ford. En el capítulo
+          Raromagedón 3: Recuperando Gravity Falls, se confirma que su signo es
+          el "Árbol de pino" de la rueda de Bill Cipher. Al final de la serie
+          deja el pueblo y vuelve junto a su hermana a la casa de sus padres.
+          Cabe destacar que el personaje está basado en el propio Alex Hirsch,
+          el creador de la serie.
+        </p>
+      </div>
+      <h2 id="mabel" class="characters__h2">Mabel Pines</h2>
 
+      <div class="characters__div-reverse">
+        <img
+          class="characters__img"
+          src="../img/personajes/mabel.png"
+          alt="Mabel Pines"
+        />
+        <p>
+          Pronunciado Meibl en inglés, Mabel en Latinoamérica y Meibol en España
+          (Voz por Kristen Schaal): Mabel es una niña de 12-13 años (hasta
+          Raromagedón Parte 3: Recuperando Gravity Falls), melliza de Dipper, 5
+          minutos mayor que él y la coprotagonista de la serie. Es positiva,
+          excéntrica, energética y adorable, pero también tiene una personalidad
+          algo burlesca, especialmente con Dipper, ya que ella y su tío Stan
+          pasan la mayor parte del tiempo burlándose de Dipper por sus defectos.
+          Se expresa mediante los coloridos suéteres que usa, y utiliza uno
+          distinto en cada episodio. Durante las vacaciones, trabajaba en la
+          Cabaña del Misterio junto a su hermano Dipper, Soos, Stan y Wendy.
+          Mabel disfruta de novelas para preadolescentes, tiene una obsesión
+          enfermiza con los romances y quiere tener un "épico romance
+          veraniego"; pero, a pesar de que intenta conquistar a los chicos del
+          pueblo, no ha tenido ninguna relación concreta: por lo general, suele
+          acosarlos constantemente y se enamora al momento de alguien nuevo. Su
+          obsesión con los romances hace que llegue a entrometerse en las vidas
+          románticas de otros, especialmente la de Dipper (ya que ella sabe que
+          está enamorado de Wendy). Tiene un cerdo mascota llamado "Waddles"
+          (Pato en Hispanoamérica y Bamboleos en España), al que se lleva a
+          Piedmont al acabar el verano. Su cumpleaños es el 31 de agosto, al
+          igual que Dipper. En el episodio Un profundo final, le da un beso a
+          Marmando, un tritón. En el capítulo Una historia de dos Stans, se
+          revela que ella y su hermano son nietos de Shermy Pines, el hermano
+          menor de Stan y Ford. En el último episodio, se confirma que su signo
+          en la rueda de Bill Cipher, que aparece en la entrada de la serie, es
+          la "Estrella fugaz". Al final de la serie deja el pueblo y vuelve
+          junto a su hermano a la casa de sus padres. El personaje está basado
+          en Ariel Hirsch, la hermana gemela de Alex Hirsch.
+        </p>
+      </div>
+      <h2 id="stanley" class="characters__h2">Stanley "Stan" Pines</h2>
+      <div class="characters__div">
+        <img
+          class="characters__img"
+          src="../img/personajes/uncle stan.jfif"
+          alt="Uncle Stan Pines"
+        />
+        <p>
+          (Voz por Alex Hirsch): Es el tío abuelo de Dipper y Mabel, y dueño de
+          "La Cabaña del Misterio", la cual es una trampa para turistas, y la
+          califica como "El museo más extraño del mundo". En el episodio El
+          Ascenso de Gideon, se muestra que él posee en secreto el Diario Número
+          "1". Es viejo, gruñón, y muy propenso a decir mentiras y cometer
+          crímenes (motivo por el que ha cambiado de identidad en muchas
+          ocasiones para huir de la ley). Debido a su afán de ganar dinero, sus
+          métodos de obtención no siempre son legales, por lo que hace lo
+          posible por estafar a todos los clientes que pueda vendiendo mercancía
+          a precios exorbitantes. Nunca demuestra creer a Dipper ni a Mabel
+          sobre las cosas extrañas que pasan en el pueblo pese a estar al tanto
+          de ellas, pero se lo confiesa más adelante en Temible-oke. Siempre se
+          preocupa por sus sobrinos y los quiere incondicionalmente, aunque la
+          mayoría de las veces no lo demuestra. Al estar "trabajando", utiliza
+          un fez y un parche por encima de sus lentes, lo cual solo lo utiliza
+          como parte de "La Cabaña del Misterio". Cuando no está haciendo
+          dinero, está normalmente viendo la televisión. En la primera
+          temporada, Stan no parecía querer mucho a Dipper, ya que siempre lo
+          trataba muy mal: lo ponía a hacer trabajos duros y vergonzosos, y
+          siempre se burlaba de él bruscamente por cualquier cosa (ya fuese voz
+          o porque era 1 milímetro más bajo que Mabel), para hacerlo sentir mal.
+          Dipper llegó a creer que Stan no lo quería, pero se revela que, en
+          realidad, Stan lo quiere mucho y era tan duro con Dipper porque quería
+          fortalecerlo para que aprendiera a defenderse; esto normalmente hace
+          referencias al Apocalipsis en sus frases, y ha declarado haber estado
+          en una prisión conocida de Colombia y, a la vez, en otros 2 países.
+          Además, en el episodio Pelea de Luchadores, se descubre que él tiene
+          vértigo. En el episodio Él no es lo que parece, se revela que tiene un
+          hermano gemelo llamado Stanford, que es el autor de los diarios. Entre
+          sus crímenes figuran: tráfico de pirotecnia, posesión de armas
+          ilegales, sobornos, tráfico de cachorros y animales en peligro de
+          extinción, asesinar a una llama "que sabía demasiado", falsificar
+          dinero, robar en tiendas, mentir en la declaración de la renta,
+          estafar y un sinfín de transgresiones. En el videojuego Gravity Falls:
+          Legend of the Gnome Gemulets, se revela que él estuvo presente en el
+          nacimiento de Dipper y Mabel. Él obtuvo un "tatuaje" en su espalda,
+          siendo en realidad una quemadura, tras tener una pelea con su hermano
+          hace 30 años. Se confirma que su símbolo es una "Media luna" en la
+          rueda de Bill; sin embargo, su símbolo fue censurado, debido a que
+          hacía referencia a los masones, y reemplazado por el de un pez similar
+          a Pac-Man. Logra destruir espiritualmente a Bill, borrándose a sí
+          mismo la memoria, pero regresa en si tiempo después. En el último
+          episodio, junto con Ford, deciden viajar alrededor del mundo en busca
+          de anomalías y aventuras en un bote, como tenían planeado desde niños.
+        </p>
+      </div>
+      <h2 id="wendy" class="characters__h2">Wendy Blerble Corduroy</h2>
+      <div class="characters__div-reverse">
+        <img
+          class="characters__img"
+          src="../img/personajes/wendy.jfif"
+          alt="Wendy Blerble Corduroy"
+        />
+        <p>
+          (voz por Linda Cardellini): Es una chica de 16 años de edad que
+          trabaja a media jornada en "La Cabaña del Misterio". Es melosa y poco
+          femenina, además de que suele meterse en muchos problemas debido a su
+          conducta rebelde y gamberra; pero, aun así, es muy "cool" y ha
+          demostrado su amabilidad en muchas ocasiones. Nunca parece importarle
+          mucho su trabajo, ya que la mayoría de las veces se la pasa
+          desobedeciendo las órdenes de Stan y leyendo revistas, pero disfruta
+          mucho estar ahí, divertirse y jugar con los dos nuevos huéspedes del
+          lugar: Dipper y Mabel. A pesar de que siempre se la ve despreocupada,
+          siente un gran estrés a causa de su familia, ya que muestra lo que
+          realmente se siente al tener una familia disfuncional. Tiende a tomar
+          una actitud de mujer realista, ya que, según ella, las chicas normales
+          están locas, enojadas, sudorosas y siempre buscan obtener lo que
+          quieren. Se reveló que Wendy ha tenido muchos novios en el pasado; de
+          hecho, ha tenido tantos, que hay un exnovio del cual no puede recordar
+          si rompió con él o no. Wendy es la hija mayor de su familia y su padre
+          es el Varonil Dan Corduroy, el leñador de Gravity Falls (del cual
+          lleva una relación a medias); se desconoce qué pasó con su madre
+          (según el creador de la serie, no está con ella; probablemente
+          falleció hace pocos años). A la vez, posee una buena condición física,
+          ya que su padre la llevaba a concursos de leñadores desde que era
+          pequeña. Ella es muy sociable y cuenta con muchos amigos que están
+          alrededor de su misma edad. Uno de sus novios que aparece en la serie
+          es Robbie, a quien Dipper desprecia y considera su rival, debido a su
+          búsqueda de Wendy. Ella casi siempre defiende a Dipper ante Robbie;
+          tiempo después, rompe con Robbie en un problema que tuvieron al Robbie
+          controlar la mente de Wendy y ésta enterarse de ello, pero continúan
+          una relación de amistad dentro del grupo. Su símbolo es la "Bolsa de
+          hielo" en la rueda de Bill. Wendy confiesa que se siente halagada
+          cuando Dipper le confiesa su amor, pero le dice que no pueden estar
+          juntos debido a su diferencia de edad. En el último episodio, le
+          regala a Dipper su gorra, más una tarjeta firmada por todos los amigos
+          cercanos de ellos, prometiendo que se volverían a ver en el próximo
+          verano.
+        </p>
+      </div>
+      <h2 id="jesus" class="characters__h2">Jesús "Soos" Alzamirano Ramírez</h2>
+      <div class="characters__div">
+        <img
+          class="characters__img"
+          src="../img/personajes/soos.jpg"
+          alt="Soos"
+        />
+        <p>
+          (voz por Alex Hirsch): Es un empleado de servicio, conserjería y
+          mantenimiento de "La Cabaña del Misterio", que ha trabajado allí desde
+          que era un niño. Es un hombre de 22 años, gordo, grande, ingenuo y con
+          una personalidad traviesa. Vive en casa de su abuela materna en un
+          barrio cercano a la Cabaña del Misterio. Es muy buen amigo de Dipper y
+          Mabel, y siempre les ayuda cuando ellos lo necesitan. Es una de las
+          pocas personas que creen que algo raro está pasando en Gravity Falls,
+          aparte de Dipper y Mabel. Es bastante torpe y no es el más brillante
+          del grupo, además de que con frecuencia está cometiendo errores; pero,
+          a pesar de esto, tiene una gran variedad de talentos, incluyendo
+          específicamente DJ, además de que es experto en videojuegos, un
+          estupendo mecánico, sabe informática y es miembro del FCLORP (un grupo
+          dedicado a los juegos de rol). Tiene una gran admiración por Stan, a
+          quien ve como una figura paterna. Su cumpleaños es el 13 de julio,
+          pero lo odia porque le recuerda que su padre lo abandonó de pequeño y
+          es el día en el que cada año esperaba que regresase (sin que este
+          volviese jamás). En el capítulo 5 de la segunda temporada, obtiene un
+          noviazgo a larga distancia con una chica llamada Melody. Se confirma
+          que su símbolo es un "Signo de pregunta" en la rueda de Bill. Al
+          final, Stan le entrega la Cabaña del Misterio para que sea el nuevo
+          administrador de la cabaña, mudándose con su abuela y contratando a
+          Melody como ayudante.
+        </p>
+      </div>
+      <h2 id="mcgucket" class="characters__h2">Fiddleford McGucket</h2>
+      <div class="characters__div-reverse">
+        <img
+          class="characters__img"
+          src="../img/personajes/mcGucket.jfif"
+          alt="Fiddleford Gucket"
+        />
+        <p>
+          Fiddleford Hadron McGucket, mejor conocido como "El Viejo McGucket",
+          es un personaje secundario de la serie. Es descrito como el loco del
+          pueblo en Gravity Falls, Oregón; su aparición oficial fue en "La
+          Leyenda del Monstruo del Lago". Existió una teoría que lo hacía el
+          autor, pero en el episodio "La Sociedad del Ojo Cegado" se demuestra
+          que solo trabajó para el autor.
+        </p>
+      </div>
 
-</div>
+      <h2 id="stanford" class="characters__h2">Stanford Pines</h2>
+      <div class="characters__div">
+        <img
+          class="characters__img"
+          src="../img/personajes/stanford.jfif"
+          alt="Stanford Pines"
+        />
+        <p>
+          Siendo el gemelo de Stanley Pines, tiene una apariencia semejante a
+          él, teniendo su misma edad. Sin embargo, parece más joven que su
+          hermano, teniendo su cabello de color gris oscuro con solo una parte
+          gris clara. En el episodio "El Último Mabelcornio", se puede ver un
+          acercamiento a los ojos de Ford, revelando que tiene ojos azules.
+          Presumiblemente, al ser su gemelo, Stan también los tiene. Se le ve
+          usando una larga bata color negra con múltiples bolsillos en el
+          interior y un objeto que parece ser un arma en su espalda. Bajo su
+          bata lleva puesto una camisa y pantalones negros. También lleva unas
+          botas negras, un cinturón café que pasa por su hombro, una capa
+          desgarrada y una bufanda gris (en su primera aparición lucia así).
+        </p>
+      </div>
 
+      <h2 id="abuelita" class="characters__h2">Abuelita</h2>
+      <div class="characters__div-reverse">
+        <img
+          class="characters__img"
+          src="../img/personajes/abuelita.jfif"
+          alt="Abuelita"
+        />
+        <p>
+          La Abuela de Soos, también conocida como Abuelita, es uno de los
+          familiares de Soos Ramírez y como indica su nombre, su abuela materna.
+          Abuelita posee una piel clara, nariz pronunciada y complexión robusta,
+          al igual que Soos y Reggie, sus nietos. Su cabello es gris, largo y
+          esponjoso. Mientras está en casa, ella usa un vestido magenta oscuro
+          con un delantal amarillo y pantuflas verdes. También lleva consigo
+          unos pequeños y circulares aretes de color verde esmeralda claro. Es
+          una mujer bastante tranquila y serena, le gusta mucho la limpieza, al
+          punto de que cuando ve algo sucio, rápidamente lo limpia. A pesar de
+          ser extremadamente calmada y relajada, ella es consciente del entorno
+          en donde vive, ya que menciona a los Pines que no podrá cuidarlos
+          debido a que no tiene suficiente dinero para la comida, otro ejemplo
+          es cuando le menciona a Soos que debería conseguirse una pareja. Ella
+          demuestra ser bastante amable y hospitalaria, ya que permitió a los
+          Pines vivir en su casa y se ve muy interesada en los deseos y en la
+          vida de Soos.
+        </p>
+      </div>
 
+      <a class="characters__id" href="#top">To the top</a>
+    </main>
 
+    <footer class="footer">
+      <a class="footer__a" target="_blank" href="https://www.youtube.com/"
+        ><i class="fa-brands fa-facebook"></i
+      ></a>
+      <a class="footer__a" target="_blank" href="https://www.youtube.com/"
+        ><i class="fa-brands fa-twitter"></i
+      ></a>
+      <img
+        class="footer__img"
+        src="../img/footer.png"
+        alt="gravity-falls logo"
+      />
+      <a class="footer__a" target="_blank" href="https://www.youtube.com/"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a class="footer__a" target="_blank" href="https://www.youtube.com/"
+        ><i class="fa-brands fa-youtube"></i
+      ></a>
+    </footer>
 
-
-  <h2 id="dipper" class="characters__h2">Mason "Dipper" Pines</h2>
-<div class="characters__div">
-  <img class="characters__img" src="../img/personajes/dipper.jfif" alt="Dipper">
-  <p>(Voz por Jason Ritter): Dipper es un niño inteligente de 12-13 años1​ (hasta Raromagedón Parte 3: Recuperando Gravity Falls), mellizo de Mabel, 5 minutos menor que ella y el protagonista principal de la serie. Es organizado y curioso, pero no es muy fuerte en el sentido físico: por lo general, se lo muestra como un debilucho (lo que causa las burlas de Mabel y su tío Stan). Durante las vacaciones, trabajaba en la Cabaña del Misterio junto a su hermana Mabel, Soos, Stan y Wendy. Un día, descubre accidentalmente un libro en el que aparecen advertencias e información sobre los sucesos del pueblo (el Diario Número "3"). Es atento e inteligente, y para no fallar, organiza listas a menudo, con la intención de que todo salga perfecto. Dipper está enamorado de Wendy y, en más de una ocasión, ha intentando confesarle su amor. Sin embargo, ella amablemente le rechazó. Consiguió su apodo debido a que tiene una marca de nacimiento, la Osa Mayor (traducido como The Big Dipper), y le gusta el nombre Tyrone. Lleva una gorra con un signo de árbol de pino, un chaleco azul, camisa roja, pantalones cortos y zapatillas. Es ambidiestro, pero suele usar más la mano derecha. Su cumpleaños es el 31 de agosto, al igual que Mabel. Se puede apreciar que la mayoría del tiempo intenta anteponer la felicidad de su hermana antes que la suya. En el capítulo Una historia de dos Stans, se revela que él y su hermana son nietos de Shermy Pines, el hermano menor de Stan y Ford. En el capítulo Raromagedón 3: Recuperando Gravity Falls, se confirma que su signo es el "Árbol de pino" de la rueda de Bill Cipher. Al final de la serie deja el pueblo y vuelve junto a su hermana a la casa de sus padres. Cabe destacar que el personaje está basado en el propio Alex Hirsch, el creador de la serie.</p>
-</div>
-<h2 id="mabel"  class="characters__h2">Mabel Pines</h2>
-
-<div class="characters__div-reverse">
-
-  <img class="characters__img" src="../img/personajes/mabel.png" alt="Mabel Pines">
-  <p>Pronunciado Meibl en inglés, Mabel en Latinoamérica y Meibol en España (Voz por Kristen Schaal): Mabel es una niña de 12-13 años (hasta Raromagedón Parte 3: Recuperando Gravity Falls), melliza de Dipper, 5 minutos mayor que él y la coprotagonista de la serie. Es positiva, excéntrica, energética y adorable, pero también tiene una personalidad algo burlesca, especialmente con Dipper, ya que ella y su tío Stan pasan la mayor parte del tiempo burlándose de Dipper por sus defectos. Se expresa mediante los coloridos suéteres que usa, y utiliza uno distinto en cada episodio. Durante las vacaciones, trabajaba en la Cabaña del Misterio junto a su hermano Dipper, Soos, Stan y Wendy. Mabel disfruta de novelas para preadolescentes, tiene una obsesión enfermiza con los romances y quiere tener un "épico romance veraniego"; pero, a pesar de que intenta conquistar a los chicos del pueblo, no ha tenido ninguna relación concreta: por lo general, suele acosarlos constantemente y se enamora al momento de alguien nuevo. Su obsesión con los romances hace que llegue a entrometerse en las vidas románticas de otros, especialmente la de Dipper (ya que ella sabe que está enamorado de Wendy). Tiene un cerdo mascota llamado "Waddles" (Pato en Hispanoamérica y Bamboleos en España), al que se lleva a Piedmont al acabar el verano. Su cumpleaños es el 31 de agosto, al igual que Dipper. En el episodio Un profundo final, le da un beso a Marmando, un tritón. En el capítulo Una historia de dos Stans, se revela que ella y su hermano son nietos de Shermy Pines, el hermano menor de Stan y Ford. En el último episodio, se confirma que su signo en la rueda de Bill Cipher, que aparece en la entrada de la serie, es la "Estrella fugaz". Al final de la serie deja el pueblo y vuelve junto a su hermano a la casa de sus padres. El personaje está basado en Ariel Hirsch, la hermana gemela de Alex Hirsch.</p>
-</div>
-  <h2 id="stanley" class="characters__h2">Stanley "Stan" Pines</h2>
-  <div class="characters__div">
-
-  <img class="characters__img" src="../img/personajes/uncle stan.jfif" alt="Uncle Stan Pines">
-  <p>(Voz por Alex Hirsch): Es el tío abuelo de Dipper y Mabel, y dueño de "La Cabaña del Misterio", la cual es una trampa para turistas, y la califica como "El museo más extraño del mundo". En el episodio El Ascenso de Gideon, se muestra que él posee en secreto el Diario Número "1". Es viejo, gruñón, y muy propenso a decir mentiras y cometer crímenes (motivo por el que ha cambiado de identidad en muchas ocasiones para huir de la ley). Debido a su afán de ganar dinero, sus métodos de obtención no siempre son legales, por lo que hace lo posible por estafar a todos los clientes que pueda vendiendo mercancía a precios exorbitantes. Nunca demuestra creer a Dipper ni a Mabel sobre las cosas extrañas que pasan en el pueblo pese a estar al tanto de ellas, pero se lo confiesa más adelante en Temible-oke. Siempre se preocupa por sus sobrinos y los quiere incondicionalmente, aunque la mayoría de las veces no lo demuestra. Al estar "trabajando", utiliza un fez y un parche por encima de sus lentes, lo cual solo lo utiliza como parte de "La Cabaña del Misterio". Cuando no está haciendo dinero, está normalmente viendo la televisión. En la primera temporada, Stan no parecía querer mucho a Dipper, ya que siempre lo trataba muy mal: lo ponía a hacer trabajos duros y vergonzosos, y siempre se burlaba de él bruscamente por cualquier cosa (ya fuese voz o porque era 1 milímetro más bajo que Mabel), para hacerlo sentir mal. Dipper llegó a creer que Stan no lo quería, pero se revela que, en realidad, Stan lo quiere mucho y era tan duro con Dipper porque quería fortalecerlo para que aprendiera a defenderse; esto normalmente hace referencias al Apocalipsis en sus frases, y ha declarado haber estado en una prisión conocida de Colombia y, a la vez, en otros 2 países. Además, en el episodio Pelea de Luchadores, se descubre que él tiene vértigo. En el episodio Él no es lo que parece, se revela que tiene un hermano gemelo llamado Stanford, que es el autor de los diarios. Entre sus crímenes figuran: tráfico de pirotecnia, posesión de armas ilegales, sobornos, tráfico de cachorros y animales en peligro de extinción, asesinar a una llama "que sabía demasiado", falsificar dinero, robar en tiendas, mentir en la declaración de la renta, estafar y un sinfín de transgresiones. En el videojuego Gravity Falls: Legend of the Gnome Gemulets, se revela que él estuvo presente en el nacimiento de Dipper y Mabel. Él obtuvo un "tatuaje" en su espalda, siendo en realidad una quemadura, tras tener una pelea con su hermano hace 30 años. Se confirma que su símbolo es una "Media luna" en la rueda de Bill; sin embargo, su símbolo fue censurado, debido a que hacía referencia a los masones, y reemplazado por el de un pez similar a Pac-Man. Logra destruir espiritualmente a Bill, borrándose a sí mismo la memoria, pero regresa en si tiempo después. En el último episodio, junto con Ford, deciden viajar alrededor del mundo en busca de anomalías y aventuras en un bote, como tenían planeado desde niños.</p>
-</div>
-  <h2 id="wendy" class="characters__h2">Wendy Blerble Corduroy</h2>
-  <div class="characters__div-reverse">
-
-  <img class="characters__img" src="../img/personajes/wendy.jfif" alt="Wendy Blerble Corduroy">
-  <p>(voz por Linda Cardellini): Es una chica de 16 años de edad que trabaja a media jornada en "La Cabaña del Misterio". Es melosa y poco femenina, además de que suele meterse en muchos problemas debido a su conducta rebelde y gamberra; pero, aun así, es muy "cool" y ha demostrado su amabilidad en muchas ocasiones. Nunca parece importarle mucho su trabajo, ya que la mayoría de las veces se la pasa desobedeciendo las órdenes de Stan y leyendo revistas, pero disfruta mucho estar ahí, divertirse y jugar con los dos nuevos huéspedes del lugar: Dipper y Mabel. A pesar de que siempre se la ve despreocupada, siente un gran estrés a causa de su familia, ya que muestra lo que realmente se siente al tener una familia disfuncional. Tiende a tomar una actitud de mujer realista, ya que, según ella, las chicas normales están locas, enojadas, sudorosas y siempre buscan obtener lo que quieren. Se reveló que Wendy ha tenido muchos novios en el pasado; de hecho, ha tenido tantos, que hay un exnovio del cual no puede recordar si rompió con él o no. Wendy es la hija mayor de su familia y su padre es el Varonil Dan Corduroy, el leñador de Gravity Falls (del cual lleva una relación a medias); se desconoce qué pasó con su madre (según el creador de la serie, no está con ella; probablemente falleció hace pocos años). A la vez, posee una buena condición física, ya que su padre la llevaba a concursos de leñadores desde que era pequeña. Ella es muy sociable y cuenta con muchos amigos que están alrededor de su misma edad. Uno de sus novios que aparece en la serie es Robbie, a quien Dipper desprecia y considera su rival, debido a su búsqueda de Wendy. Ella casi siempre defiende a Dipper ante Robbie; tiempo después, rompe con Robbie en un problema que tuvieron al Robbie controlar la mente de Wendy y ésta enterarse de ello, pero continúan una relación de amistad dentro del grupo. Su símbolo es la "Bolsa de hielo" en la rueda de Bill. Wendy confiesa que se siente halagada cuando Dipper le confiesa su amor, pero le dice que no pueden estar juntos debido a su diferencia de edad. En el último episodio, le regala a Dipper su gorra, más una tarjeta firmada por todos los amigos cercanos de ellos, prometiendo que se volverían a ver en el próximo verano.</p>
-</div>
-  <h2 id="jesus" class="characters__h2">Jesús "Soos" Alzamirano Ramírez </h2>
-  <div class="characters__div">
-
-  <img class="characters__img" src="../img/personajes/soos.jpg" alt="Soos">
-  <p>(voz por Alex Hirsch): Es un empleado de servicio, conserjería y mantenimiento de "La Cabaña del Misterio", que ha trabajado allí desde que era un niño. Es un hombre de 22 años, gordo, grande, ingenuo y con una personalidad traviesa. Vive en casa de su abuela materna en un barrio cercano a la Cabaña del Misterio. Es muy buen amigo de Dipper y Mabel, y siempre les ayuda cuando ellos lo necesitan. Es una de las pocas personas que creen que algo raro está pasando en Gravity Falls, aparte de Dipper y Mabel. Es bastante torpe y no es el más brillante del grupo, además de que con frecuencia está cometiendo errores; pero, a pesar de esto, tiene una gran variedad de talentos, incluyendo específicamente DJ, además de que es experto en videojuegos, un estupendo mecánico, sabe informática y es miembro del FCLORP (un grupo dedicado a los juegos de rol). Tiene una gran admiración por Stan, a quien ve como una figura paterna. Su cumpleaños es el 13 de julio, pero lo odia porque le recuerda que su padre lo abandonó de pequeño y es el día en el que cada año esperaba que regresase (sin que este volviese jamás). En el capítulo 5 de la segunda temporada, obtiene un noviazgo a larga distancia con una chica llamada Melody. Se confirma que su símbolo es un "Signo de pregunta" en la rueda de Bill. Al final, Stan le entrega la Cabaña del Misterio para que sea el nuevo administrador de la cabaña, mudándose con su abuela y contratando a Melody como ayudante.</p>
-
-</div>
-<h2 id="mcgucket" class="characters__h2">Fiddleford McGucket </h2>
-<div class="characters__div-reverse">
-
-<img class="characters__img" src="../img/personajes/mcGucket.jfif" alt="Fiddleford Gucket">
-<p>Fiddleford Hadron McGucket, mejor conocido como "El Viejo McGucket", es un personaje secundario de la serie. Es descrito como el loco del pueblo en Gravity Falls, Oregón; su aparición oficial fue en "La Leyenda del Monstruo del Lago". Existió una teoría que lo hacía el autor, pero en el episodio "La Sociedad del Ojo Cegado" se demuestra que solo trabajó para el autor.</p>
-
-</div>
-
-<h2 id="stanford" class="characters__h2">Stanford Pines </h2>
-<div class="characters__div">
-
-<img class="characters__img" src="../img/personajes/stanford.jfif" alt="Stanford Pines">
-<p>Siendo el gemelo de Stanley Pines, tiene una apariencia semejante a él, teniendo su misma edad. Sin embargo, parece más joven que su hermano, teniendo su cabello de color gris oscuro con solo una parte gris clara. En el episodio "El Último Mabelcornio", se puede ver un acercamiento a los ojos de Ford, revelando que tiene ojos azules. Presumiblemente, al ser su gemelo, Stan también los tiene. Se le ve usando una larga bata color negra con múltiples bolsillos en el interior y un objeto que parece ser un arma en su espalda. Bajo su bata lleva puesto una camisa y pantalones negros. También lleva unas botas negras, un cinturón café que pasa por su hombro, una capa desgarrada y una bufanda gris (en su primera aparición lucia así).
-
-</p>
-
-</div>
-
-<h2 id="abuelita" class="characters__h2">Abuelita </h2>
-<div class="characters__div-reverse">
-
-<img class="characters__img" src="../img/personajes/abuelita.jfif" alt="Abuelita">
-<p>La Abuela de Soos, también conocida como Abuelita, es uno de los familiares de Soos Ramírez y como indica su nombre, su abuela materna.
-  Abuelita posee una piel clara, nariz pronunciada y complexión robusta, al igual que Soos y Reggie, sus nietos. Su cabello es gris, largo y esponjoso. Mientras está en casa, ella usa un vestido magenta oscuro con un delantal amarillo y pantuflas verdes. También lleva consigo unos pequeños y circulares aretes de color verde esmeralda claro.
-  Es una mujer bastante tranquila y serena, le gusta mucho la limpieza, al punto de que cuando ve algo sucio, rápidamente lo limpia. A pesar de ser extremadamente calmada y relajada, ella es consciente del entorno en donde vive, ya que menciona a los Pines que no podrá cuidarlos debido a que no tiene suficiente dinero para la comida, otro ejemplo es cuando le menciona a Soos que debería conseguirse una pareja. Ella demuestra ser bastante amable y hospitalaria, ya que permitió a los Pines vivir en su casa y se ve muy interesada en los deseos y en la vida de Soos.
-</p>
-
-</div>
-
-
-
-
-
-
-<a class="characters__id" href="#top">To the top</a>
-
-</main>
-
-
-
-
-<footer class="footer">
-  <a class="footer__a" target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-facebook"></i></a>
-  <a class="footer__a"  target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-twitter"></i></a>
-  <img class="footer__img" src="../img/footer.png" alt="gravity-falls logo">
-  <a class="footer__a"  target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-instagram"></i></a>
-  <a class="footer__a"  target="_blank" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-</footer>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -43,6 +43,10 @@
   width: 100%;
 }
 
+.div__black {
+  background-color: #000;
+}
+
 .characters {
   background-color: #000;
   color: #f0f8ff;
@@ -139,7 +143,7 @@
 }
 .footer__a {
   color: #f0f8ff;
-  margin: 0 20px 0;
+  margin: 0 15px 0;
 }
 .footer__a:hover {
   color: rgb(255, 255, 0);
